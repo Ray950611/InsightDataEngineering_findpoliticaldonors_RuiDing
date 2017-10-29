@@ -21,7 +21,7 @@ in the required format.
 ID and date are checked to be valid. The updating scheme is the same as before. The output file medianvals_by_date will not be written until all lines have been read. Then it sorts by ID alphabetically and then by date chronologically. Finally it writes one line with the specified format for every key pair (ID,date) which calculates the median for amounts given to a recipient on a particular date.
 
 The structure of this repo follows the specifications of the coding challenge, with input file itcont.txt stored in the input folder and output files will be written to the output folder when you run the test code run.sh.
-In the testsuites, there is the original sample test1(which has a very small input) and my own test2 which contains 5000 records from the online data source of political donations by individuals.
-When the test code run_tests.sh is executed both tests will run and results will be compared with the prestored output answers.
+In the testsuites, there is the original sample test1(which has a very small input), my own test2 which contains 5000 records from the online data source of political donations by individuals and my own test3 which contains the first few lines of the test2 input file.
+When the test code run_tests.sh is executed all tests will run and results will be compared with the prestored output answers if given.
 
 Overall, the program passes the test case and is robust against different inputs. It runs in reasonable time and the structure is clear to unerstand.
